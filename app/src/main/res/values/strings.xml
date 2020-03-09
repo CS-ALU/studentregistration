@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Student registration</string>
     <string name="rollnumber">Roll number</string>
+    <string name="password">Password</string>
+    <string name="phone">Mobile number</string>
+    <string name="email_example">example@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="button">Submit</string>
+    <string-array name="branch_array">
+        <item>Branch</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>Year</item>
+    </string-array>
+    <string-array name="semester_array">
+        <item>Semester</item>
+    </string-array>
+
+
 </resources>
