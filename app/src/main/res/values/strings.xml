@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Student registration</string>
+    <string name="rollnumber">Roll number</string>
+</resources>
