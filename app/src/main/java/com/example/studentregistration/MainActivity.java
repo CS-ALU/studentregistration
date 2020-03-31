@@ -40,7 +40,7 @@ public class MainActivity<ParsedNdefRecord> extends AppCompatActivity {
             return;
         }
 
-        pendingIntent= new PendingIntent.getActivity(this,0,
+        pendingIntent= new PendingIntent.getActivity(this,0,//This is not correct. You cannot use .getActivity on Main Activity java class
                 new Intent(this,this.getClass())
                 .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP),0);
 
